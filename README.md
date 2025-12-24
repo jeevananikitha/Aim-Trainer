@@ -1,14 +1,67 @@
-# Python-Aim-Trainer
+# 🎯 Aim Trainer Game (Python + Pygame)
 
-# 💻 Launch Your Software Development Career Today!  
+<p align="center">
+  <b>An interactive aim-tracking game built using Python and Pygame to improve mouse precision, speed, and accuracy.</b>
+</p>
 
-🎓 **No degree? No problem!** My program equips you with everything you need to break into tech and land an entry-level software development role.  
+---
 
-🚀 **Why Join?**  
-- 💼 **$70k+ starting salary potential**  
-- 🕐 **Self-paced:** Complete on your own time  
-- 🤑 **Affordable:** Low risk compared to expensive bootcamps or degrees
-- 🎯 **45,000+ job openings** in the market  
+## 🚀 About the Project
 
-👉 **[Start your journey today!](https://techwithtim.net/dev)**  
-No experience needed—just your determination. Future-proof your career and unlock six-figure potential like many of our students have!  
+The **Aim Trainer Game** is a desktop-based application developed using **Python and Pygame** that helps users practice and improve their mouse aiming skills.  
+Targets appear at random positions on the screen and grow/shrink dynamically, challenging the player’s reaction time and precision.
+
+The game tracks key performance metrics such as **hits, misses, speed, accuracy, and survival time**, providing instant feedback to the player.
+
+---
+
+## ✨ Features
+
+✅ Randomly spawning targets  
+✅ Smooth target growth and shrink animation  
+✅ Mouse click collision detection  
+✅ Real-time performance tracking  
+✅ Lives system to increase difficulty  
+✅ End screen with detailed statistics  
+✅ Clean and minimal game UI  
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-----------|--------|
+| 🐍 Python | Core programming language |
+| 🎮 Pygame | Game development & rendering |
+| 🧮 Math | Distance & collision calculation |
+| ⏱️ Time | Game timing & performance tracking |
+| 🎲 Random | Random target generation |
+
+---
+
+## 🎮 Gameplay Mechanics
+
+- Targets spawn every few milliseconds at random positions.
+- Targets grow and shrink over time.
+- Clicking inside a target counts as a **hit**.
+- Missing or letting a target disappear costs a **life**.
+- Game ends when all lives are lost.
+
+---
+
+## 📊 Performance Metrics
+
+The game calculates and displays:
+- ⏱️ Time survived  
+- 🎯 Total hits  
+- ⚡ Hit speed (targets per second)  
+- 🎯 Accuracy percentage  
+- ❤️ Remaining lives  
+
+---
+
+## ▶️ How to Run the Game
+
+### 1️⃣ Install Pygame
+```bash
+pip install pygame
